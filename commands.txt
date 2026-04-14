@@ -1,0 +1,16 @@
+   86  cp .nanorc ~/
+   87  ls ~
+   88  cd .dotfiles
+   89  git add --all
+   90  git commit -m "INIT commit"
+   91  git push
+   92  nano hw1.txt
+   93  git add hw1.txt\ngit commit -m "added hw1 submission file"\ngit push
+   94  history
+   95  history > commands.txt
+   96  git rm laylasm_hw01.txt
+   97  git commit -m "removed extra file"\ngit push
+   98  nano hw1.txt
+   99  git add hw1.txt\ngit commit -m "added resources"\ngit push
+  100  tail -n 30 ~/.bash_history > commands.txt
+  101  git add commands.txt\ngit commit -m "added commands file"\ngit push
