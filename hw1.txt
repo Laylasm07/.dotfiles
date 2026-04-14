@@ -20,3 +20,8 @@ cp
 git add --all
 git commit -m "INIT commit"
 git push
+
+Resources Used:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+http://www.unixtutorial.org/how-to-generate-ed25519-ssh-key/
+https://education.github.com/git-cheat-sheet-education.pdf
