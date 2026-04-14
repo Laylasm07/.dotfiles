@@ -1,0 +1,22 @@
+https://github.com/Laylasm07/.dotfiles
+In this lab, I learned how to set up Git and connect it to GitHub using SSH keys. I configured my Git username and email, and generated an SSH key to securely connect my computer to my GitHub account.
+
+I also practiced creating and navigating directories using the terminal. I created a hidden .dotfiles directory and added configuration files like README.md and .nanorc. I learned how to edit files using nano and save them properly.
+
+One challenge I faced was understanding where to run commands (terminal vs GitHub), but after practicing step-by-step, I became more comfortable. I also learned how to troubleshoot small errors like files already existing.
+
+Overall, this lab helped me understand how developers use Git and GitHub to manage and upload files. I now feel more confident using the command line and working with repositories.
+
+Commands used:
+git config --global user.name
+git config --global user.email
+ssh-keygen -t ed25519 -a 203 -f ./id_ed25519
+cat id_ed25519.pub
+git clone
+cd
+ls
+nano
+cp
+git add --all
+git commit -m "INIT commit"
+git push
